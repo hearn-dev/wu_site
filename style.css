@@ -1,0 +1,92 @@
+html {
+    height: 100%;
+    background-color: black;
+    margin: 0;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    text-align: center;
+    padding-top: 135px;
+}
+/*header*/
+
+.header {
+    position: fixed;
+    width: 100%
+}
+
+.header_wrapper {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+
+}
+
+li {
+    margin: 10px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f8d106;
+}
+
+/* statement */
+
+#statement {
+    padding-top: 175px;
+    background-image: url("./resources/the_wu.jpeg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    width: 90%;
+    height: 700px;
+    display: flex;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.textover {
+    background: black;
+    margin: auto;
+    width: 60%; 
+    font-size: medium;
+    height: 10%;
+    text-align: center;
+    margin-top: 450px;
+}
+
+/* members */
+
+#member_folio {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+ 
+.member img {
+    width: 400px;
+    height: auto;
+    padding: 25px;
+}
